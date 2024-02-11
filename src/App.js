@@ -4,6 +4,10 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      {/* Invoco el componente TodoItem */}
+      <TodoItem />
+      <TodoItem />
+      <TodoItem />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -19,6 +23,16 @@ function App() {
         </a>
       </header>
     </div>
+  );
+}
+
+function TodoItem() {
+  return(
+    <li>
+      <span>V</span>
+      <p>A llorar a la llorería</p>
+      <span>X</span>
+    </li>
   );
 }
 
