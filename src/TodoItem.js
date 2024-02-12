@@ -1,8 +1,8 @@
-function TodoItem() {
+function TodoItem(props) {
     return(
         <li>
-            <span>V</span>
-            <p>A llorar a la llorería</p>
+            <span>V {props.completed}</span>
+            <p>{props.text}</p>
             <span>X</span>
         </li>
     );
