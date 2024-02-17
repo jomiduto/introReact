@@ -1,6 +1,8 @@
+import './TodoFilter.css';
+
 function TodoFilter(props) {
     return(
-        <input placeholder="Aprender programación" />
+        <input className='TodoFilter' placeholder="Aprender programación" />
     );
 }
 
